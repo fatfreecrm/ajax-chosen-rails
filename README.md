@@ -14,16 +14,16 @@ Include `ajax-chosen-rails` in Gemfile
 
 Then run `bundle install`
 
-### Include chosen and ajax-chosen javascript assets
+### Include ajax-chosen (and chosen) javascript assets
+
+#### NOTE: Ajax-Chosen automatically loads Chosen as a dependency
 
 Add to your `app/assets/stylesheets/application.js` if use with jQuery
 
-    //= require chosen-jquery
     //= require ajax-chosen-jquery
 
 Or with Prototype
 
-    //= require chosen-prototype
     //= require ajax-chosen-prototype
 
 
