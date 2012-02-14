@@ -10,8 +10,6 @@ class SourceFile < Thor
     branch = "master"
     get "#{remote}/raw/#{branch}/src/ajax-chosen.jquery.coffee", "javascripts/ajax-chosen.jquery.coffee"
     get "#{remote}/raw/#{branch}/src/ajax-chosen.proto.coffee",  "javascripts/ajax-chosen.proto.coffee"
-    get "#{remote}/raw/#{branch}/lib/ajax-chosen.jquery.js",     "javascripts/ajax-chosen.jquery.js"
-    get "#{remote}/raw/#{branch}/lib/ajax-chosen.proto.js",      "javascripts/ajax-chosen.proto.js"    
     get "#{remote}/raw/#{branch}/VERSION", "VERSION"
     inside destination_root do
       version = File.read("VERSION").sub("\n", "")
