@@ -30,7 +30,7 @@ class ajaxChosen extends Chosen
 
         if window.ajaxChosenDelayTimer
           clearTimeout window.ajaxChosenDelayTimer
-          window.ajaxChosenDelayTimer = nil
+          window.ajaxChosenDelayTimer = null
         
         # This reference is frozen in the following closures
         search_field = $(this)
