@@ -8,9 +8,10 @@ The `ajax-chosen-rails` gem integrates `Chosen` and `Ajax-Chosen` with the Rails
 
 ### Install ajax-chosen-rails gem
 
-Include `ajax-chosen-rails` in Gemfile
+Include `ajax-chosen-rails` *and* `chosen-rails` in Gemfile
 
     gem 'ajax-chosen-rails'
+    gem 'chosen-rails'
 
 Then run `bundle install`
 
