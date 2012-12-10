@@ -18,7 +18,7 @@ Then run `bundle install`
 
 #### NOTE: Ajax-Chosen automatically loads Chosen as a dependency
 
-Add to your `app/assets/stylesheets/application.js` if use with jQuery
+Add to your `app/assets/javascripts/application.js` if use with jQuery
 
     //= require ajax-chosen-jquery
 
